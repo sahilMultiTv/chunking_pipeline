@@ -1,0 +1,53 @@
+# Git Ignore File for Chunking Pipeline
+
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Python cache files
+*.pyc
+*.pyo
+
+# Database files
+*.sqlite3
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Redis dump file
+dump.rdb
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore compiled Python files
+*.so
+
+# Ignore dependencies
+node_modules/
+
+# Ignore Kubernetes configs
+k8s/
+
+# Ignore build artifacts
+dist/
+build/
+__pycache__/
